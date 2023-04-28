@@ -8,8 +8,14 @@
     align-items: center;
     justify-content: space-between;
 }
+.hero{
+    background-color:#fff8e8;
+}
 .women{
-    width: 30%;
+    width: 45%;
+}
+.div-hero{
+    justify-content: center;
 }
 
 @media screen and (max-width: 767px){
