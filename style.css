@@ -8,14 +8,35 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Estilos generales */
+
+section{
+    display: flex;
+}
+
+/*Seccion Hero*/
 .hero{
     background-color:#fff8e8;
+    min-height: 450px;
+
+}
+.text{
+    text-align: center;
 }
 .women{
-    width: 45%;
+    width: 65%;
 }
 .div-hero{
     justify-content: center;
+    align-items: center;
+}
+.soy{
+    padding: 15px;
+}
+.image{
+    justify-content: center;
+    display: flex;
 }
 
 @media screen and (max-width: 767px){
