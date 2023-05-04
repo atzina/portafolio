@@ -36,8 +36,21 @@ h1{
    font-family: 'Candal', sans-serif;
 
 }
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+
+}
 .contenedor p{
  font-size: 1rem;
+}
+
+.texto-negro{
+    color:black;
+}
+.texto-blanco{
+    color:white;
 }
 
 /*Seccion Hero*/
@@ -100,7 +113,7 @@ h1{
 
 .experiencia i {
     font-size: 2.5rem;
-    color:#f8a024;
+    color:#078280;
     background-color: #0a0a23;
     padding: 8px 19px;
     border-radius: 50%
@@ -121,6 +134,63 @@ h1{
     margin: 5px;
 }
 
+/*Proyectos*/
+
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contendor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto{
+    position: relative;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .iconos-contendor {
+    display: flex;
+}
+
+.overlay i {
+   color:black;
+   font-size: 60px;
+   margin: 10px; 
+}
+
 @media screen and (max-width: 767px){
     .navbar-brand {
         display: none;
@@ -131,7 +201,7 @@ h1{
         flex-direction: column;
     }
 }
-@media screen and (max-width: 385px){
+@media screen and (max-width: 433px){
     .sobre-mi{
         height: 800px;
     }
