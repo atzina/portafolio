@@ -68,18 +68,22 @@ h1{
 }
 
 /* Sobre mí*/
+
 .sobre-mi{
-    height: 650px;
+    height: 392px;
     padding: 10px;
     justify-content: center;
     align-items: center;
 }
 .sobre-mi .contenedor {
-    max-width: 800px;
+    max-width: 573px;
     text-align: center;
 }
+
 /*Experiencia*/
+
 .experiencia{
+
     padding: 40px;
 }
 
@@ -96,13 +100,13 @@ h1{
 
 .experiencia i {
     font-size: 2.5rem;
-    color:#01bbba;
+    color:#f8a024;
     background-color: #0a0a23;
     padding: 8px 19px;
     border-radius: 50%
 }
 
-.experiencia-titulo{
+.experiencia-titulo {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
@@ -127,7 +131,7 @@ h1{
         flex-direction: column;
     }
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 385px){
     .sobre-mi{
         height: 800px;
     }
