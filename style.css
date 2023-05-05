@@ -50,6 +50,7 @@ h1{
 .btn-info{
     font-size: 1.1rem;
     margin:20px;
+    font-weight: bold;
 }
 .texto-negro{
     color:black;
@@ -201,6 +202,22 @@ h1{
     align-self: center;
 }
 
+/*Certificacions*/
+
+.certificaciones {
+    flex-direction: column;
+    padding: 40px 40px 80px 40px;
+    align-items: center;
+}
+
+.certificacion-imagen {
+    max-width: 800px;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
 @media screen and (max-width: 767px){
     .navbar-brand {
         display: none;
@@ -214,5 +231,19 @@ h1{
 @media screen and (max-width: 433px){
     .sobre-mi{
         height: 800px;
+    }
+}
+
+@media screen and (max-width: 1003px){
+    .certificacion-imagen {
+        height: 347px;
+        width: 547px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .certificacion-imagen {
+        height: 281px;
+        width: 393px;
     }
 }
