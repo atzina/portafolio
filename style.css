@@ -1,7 +1,7 @@
 /* Barra de navegacion */
 
 .navbar{
-    padding: 2rem;
+    padding: 0.5rem;
     background-color:#f5f6f7;   
 }
 .navbar-collapse {
@@ -17,7 +17,7 @@ section{
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     /*font-family: 'Dela Gothic One', cursive;*/
     font-family: 'Candal', sans-serif;
 }
@@ -75,6 +75,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    height: 589px;
 }
 .div-hero h2 {
     font-size: 1.4rem;
@@ -272,6 +273,59 @@ h1{
     color: black;
 }
 
+/*footer*/
+
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50px;
+    transition: all 0.2s ease-in;
+}
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.8rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253);
+
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
+
 
 @media screen and (max-width: 767px){
     .navbar-brand {
@@ -283,6 +337,12 @@ h1{
         flex-direction: column;
     }
 }
+@media screen and (min-width:1427px){
+    .div-hero{
+        height: 668px;
+    }
+}
+
 @media screen and (max-width: 433px){
     .sobre-mi{
         height: 800px;
