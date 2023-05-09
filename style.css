@@ -111,6 +111,7 @@ h1{
     padding: 20px;
     border: 2px solid #8080804d;
     transition: all 0.2s ease-in;
+    border-radius: 10px;
 
 }
 .experiencia .columna:hover {
@@ -151,7 +152,7 @@ h1{
     height: 100%;
     width: 100%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     display: block;
     transition: all 0.2s ease;
 }
