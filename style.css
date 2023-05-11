@@ -2,7 +2,7 @@
 
 .navbar{
     padding: 0.5rem;
-    background-color:#f5f6f7;   
+    background-color:#f5f6f7;  
 }
 .navbar-collapse {
     align-items: center;
@@ -199,21 +199,29 @@ h1{
    margin: 10px; 
 }
 
+.iconos-tec{
+    max-width: 50px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
 .btn{
     width: 270px;
     align-self: center;
+    margin: 39px;
 }
 
 /*Certificacions*/
 
 .certificaciones {
     flex-direction: column;
-    padding: 40px 40px 80px 40px;
+    padding: 19px 40px 13px 40px;
     align-items: center;
 }
 
 .certificacion-imagen {
-    max-width: 800px;
+    max-width: 502px;
 }
 
 .carousel-item {
