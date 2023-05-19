@@ -354,6 +354,9 @@ footer {
     .div-hero{
         height: 668px;
     }
+    .women {
+        width: 60%;
+    }
 }
 
 @media screen and (max-width: 433px){
