@@ -1,7 +1,6 @@
 /* Barra de navegacion */
 
 .navbar{
-    padding: 0.5rem;
     background-color:#f5f6f7;  
 }
 .navbar-collapse {
@@ -74,7 +73,6 @@ h1{
 .div-hero{
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     height: 589px;
     margin-top: 40px;
     margin-right: 0px;
