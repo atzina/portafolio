@@ -382,6 +382,9 @@ footer {
     .certificacion-2{
         max-width: 338px;
     }
+    .certificacion-imagen{
+        max-width: 338px;
+    }
     body {
         min-width: 413px;
     }
