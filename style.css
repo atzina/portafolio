@@ -210,7 +210,7 @@ h1{
 .btn{
     width: 270px;
     align-self: center;
-    margin: 39px;
+    margin: 15px;
 }
 
 /*Certificacions*/
@@ -222,11 +222,12 @@ h1{
 }
 
 .certificacion-imagen {
-    max-width: 502px;
+    max-width: 300px;
 }
+/* 
 .certificacion-2{
     max-width: 417px;
-}
+} */
 
 .carousel-item {
     height: 600px;
@@ -345,6 +346,12 @@ footer {
         display: none;
     }
 }
+@media screen and (min-width: 1000px){
+    .certificacion-imagen {
+        max-width: 500px;
+    }
+}
+
 @media screen and (max-width:537px){
     .div-hero{
         flex-direction: column;
@@ -377,27 +384,30 @@ footer {
     .overlay p {
         font-size: 19px;
     }
-    .certificacion-2{
+    /* .certificacion-2{
         max-width: 338px;
     }
     .certificacion-imagen{
         max-width: 338px;
-    }
+    } */
     body {
         min-width: 413px;
+    }
+    .navbar{
+        max-width: 427px;
     }
 }
 
 @media screen and (max-width: 1003px){
-    .certificacion-imagen {
+    /* .certificacion-imagen {
         height: 347px;
         width: 547px;
-    }
+    } */
 }
 
 @media screen and (max-width: 680px){
-    .certificacion-imagen {
+    /* .certificacion-imagen {
         height: 281px;
         width: 393px;
-    }
+    } */
 }
