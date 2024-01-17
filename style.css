@@ -366,6 +366,10 @@ footer {
         width: 100%;
     }
 
+    .contacto .conteiner {
+        width: 80%;
+    }
+
 }
 @media screen and (min-width:1427px){
     .div-hero{
